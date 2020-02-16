@@ -1,0 +1,11 @@
+@import './breakpoints/breakpoints.scss';
+
+html,
+body {
+  font-size: 16px;
+}
+
+.container {
+  width: 1640px;
+  margin: 0 auto;
+}

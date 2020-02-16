@@ -1,11 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
-    author: `Kyle Mathews`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    title: `Ronalds Portfolio`,
+    author: `Ronald Hunter`,
+    description: `Ronald Hunter's portfolio where he showcases the work he has done`,
+    siteUrl: `https://ronaldhunter.co/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `rotohun`,
+      instagram: 'rotohun',
     },
   },
   plugins: [
@@ -73,8 +74,7 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
+    `gatsby-plugin-sass`,
     // `gatsby-plugin-offline`,
   ],
 }
